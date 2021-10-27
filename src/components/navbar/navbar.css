@@ -1,0 +1,20 @@
+.logo-Name {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.nav-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: -70px;
+}
+
+.nav-container {
+  background-color: black !important;
+  height: 100vh;
+  width: 20vw;
+  flex: 5;
+  border-right: 4px solid whitesmoke;
+}

@@ -1,0 +1,13 @@
+.home-page {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+.home-main{
+    width: 100%;
+    background: url("../../asset/img/PHOTO-2021-05-20-19-33-42.jpg");
+    background-size: auto;
+    background-position: center;
+}
