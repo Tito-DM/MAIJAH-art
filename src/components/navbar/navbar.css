@@ -1,20 +1,41 @@
+.logo-title {
+  font-size: 60px !important;
+}
+
 .logo-Name {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
 }
-.nav-list{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-top: -70px;
+
+.nav-list ul li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style: none;
+  font-size: x-large;
+  padding: 10px;
+  cursor: pointer;
+}
+.nav-list-icon{
+  margin-right: 10px;
 }
 
 .nav-container {
-  background-color: black !important;
-  height: 100vh;
-  width: 20vw;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(24, 24, 24);
+  height: 90vh;
+  width: 30vw;
   flex: 5;
-  border-right: 4px solid whitesmoke;
 }
+.footer-logo{
+  margin-right: 25px;
+}
+
+.footer{
+  padding: 45px;
+}
+
+
