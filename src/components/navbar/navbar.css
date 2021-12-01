@@ -1,7 +1,10 @@
 .logo-title {
-  font-size: 60px !important;
+  font-size: 80px !important;
 }
 
+.logo-title-sub{
+  margin-top: 35px;
+}
 .logo-Name {
   display: flex;
   flex-direction: row;
@@ -13,13 +16,29 @@
   display: flex;
   flex-direction: row;
   align-items: center;
+  width: 20%;
   list-style: none;
   font-size: x-large;
   padding: 10px;
   cursor: pointer;
+  transition: all .2s ease-in-out;
+}
+
+.nav-list ul li:hover{
+  transform: scale(1.1); 
+  transform: translateX(-10%);
+  color:darkgoldenrod ;
+  
 }
 .nav-list-icon{
   margin-right: 10px;
+}
+
+
+
+.linkstyle{
+  text-decoration: none;
+  color: white;
 }
 
 .nav-container {
