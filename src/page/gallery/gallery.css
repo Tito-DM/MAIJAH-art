@@ -1,0 +1,8 @@
+.gallery{
+    flex: 1;
+    margin-left: 25%;
+}
+
+.nav{
+    flex: 10;
+}

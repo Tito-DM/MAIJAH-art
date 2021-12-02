@@ -2,6 +2,11 @@
   font-size: 80px !important;
 }
 
+nav{
+  position: fixed;
+
+}
+
 .logo-title-sub{
   margin-top: 35px;
 }
@@ -46,8 +51,8 @@
   flex-direction: column;
   background-color: rgb(24, 24, 24);
   height: 90vh;
-  width: 30vw;
-  flex: 5;
+  width: 25vw;
+  flex: 8;
 }
 .footer-logo{
   margin-right: 25px;
@@ -55,6 +60,8 @@
 
 .footer{
   padding: 45px;
+  margin-top: 50%;
+  
 }
 
 

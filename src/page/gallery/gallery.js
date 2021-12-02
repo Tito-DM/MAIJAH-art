@@ -10,6 +10,7 @@ import img4 from "../../asset/img/PHOTO-2021-05-20-19-33-42.jpg";
 import img5 from "../../asset/img/victor-grabarczyk-wN9DU73b8_s-unsplash.jpg";
 import img6 from "../../asset/img/PHOTO-2021-05-25-21-49-15.jpg";
 import NavBar from "../../components/navbar/navbar";
+import "./gallery.css"
 
 const Gallery = () => {
   return (
@@ -17,8 +18,8 @@ const Gallery = () => {
       <nav className="nav">
         <NavBar />
       </nav>
-
-      <Container>
+      <div className="gallery">
+      <Container >
         <Box sx={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)" }}>
           <CardGallery img={img1} />
           <CardGallery img={img2} />
@@ -28,6 +29,7 @@ const Gallery = () => {
           <CardGallery img={img6} />
         </Box>
       </Container>
+      </div>
     </div>
   );
 };
