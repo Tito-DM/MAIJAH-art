@@ -21,12 +21,12 @@ const Gallery = () => {
       <div className="gallery">
       <Container >
         <Box sx={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)" }}>
+          <CardGallery img={img4} />
+          <CardGallery img={img6} />
+          <CardGallery img={img3} />
           <CardGallery img={img1} />
           <CardGallery img={img2} />
-          <CardGallery img={img3} />
-          <CardGallery img={img4} />
           <CardGallery img={img5} />
-          <CardGallery img={img6} />
         </Box>
       </Container>
       </div>

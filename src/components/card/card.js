@@ -24,7 +24,7 @@ export default function CardGallery({ img }) {
             R
           </Avatar>
         }
-        title="Shrimp and Chorizo Paella"
+        title="Willian Nazare"
         subheader="September 14, 2016"
       />
       <CardMedia component="img" height="400" image={img} alt="Paella dish" />
